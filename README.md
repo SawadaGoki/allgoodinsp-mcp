@@ -1,6 +1,6 @@
 # AllGoodInsp MCP Server
 
-A curated design reference database for AI agents. Retrieve structured design data from 736+ websites — real CSS values, typography specs, color palettes, and design rationale — to generate better web designs.
+A curated design reference database for AI agents. Retrieve structured design data from hundreds of curated websites — real CSS values, typography specs, color palettes, and design rationale — to generate better web designs.
 
 Instead of generating from generic prompts, your AI retrieves actual design decisions from quality sites and synthesizes them into code-ready specifications.
 
@@ -188,7 +188,7 @@ Each reference contains structured design decisions from a real website:
 |-------|-------------|-------|
 | **Principles** | Universal design truths (typography, layout, color, motion, IA) | 30+ |
 | **Patterns** | Recurring technique combinations observed across multiple sites | 30+ |
-| **References** | Per-site structured JSON with design decisions and CSS values | 736+ |
+| **References** | Per-site structured JSON with design decisions and CSS values | Hundreds |
 
 ### Categories
 
@@ -196,7 +196,7 @@ Agency, E-Commerce, Consulting, Software/SaaS, Portfolio, Food & Beverage, Hospi
 
 ### Coverage
 
-736+ sites across 20+ countries, with 62% Japan and 26% US coverage.
+Hundreds of sites across 20+ countries, with strong Japan and US coverage.
 
 ## REST API
 
