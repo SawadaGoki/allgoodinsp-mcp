@@ -39,6 +39,60 @@ For server-to-server or CI/CD use, generate an API key at [allgoodinsp.com/accou
 Authorization: Bearer agi_your_key_here
 ```
 
+## Basic Usage Flow
+
+A typical design workflow with AllGoodInsp follows this sequence:
+
+### Step 1: Load the methodology
+
+```
+get_reference_guide()
+get_methodology({ layers: ["principles", "patterns"] })
+```
+
+Gives your AI the design vocabulary — universal principles (typography, layout, color, motion, IA) and recurring patterns. Load once per session. This is the foundation: **methodology without references produces correct but boring design.**
+
+### Step 2: Search for references
+
+```
+search_sites({ query: "minimal SaaS landing page, confident and warm" })
+```
+
+Describe what you're building in natural language — mood, purpose, aesthetic. The search uses 3-axis matching (purpose + mood + contrast diversity) to return varied, relevant results.
+
+### Step 3: Select and read references
+
+```
+get_site({ site_id: "stripe-com", detail: "full" })
+get_site({ site_id: "linear-app", detail: "full" })
+get_site({ site_id: "vercel-com", detail: "full" })
+```
+
+Pick 3+ references. Each reference contains CSS values, typography specs, color palettes, and design rationale. Use each site as a specialist for specific decisions — don't average them.
+
+### Step 4: Synthesize into a design brief
+
+```
+extract_essence({
+  site_ids: ["stripe-com", "linear-app", "vercel-com"],
+  brief: "SaaS landing page for a developer tool, confident and minimal"
+})
+```
+
+`extract_essence` combines the selected references into a code-ready design specification — CSS variables, color palette, typography scale, spacing system, section structure, and design rules with fixed/explorable boundaries.
+
+### Step 5: Build and review
+
+Build your design using the synthesized brief, then run the quality checklist:
+
+```
+self_review()
+```
+
+Checks for design anti-patterns, craft quality, principle adherence, and IA structure.
+
+---
+
 ## Tools
 
 ### `extract_essence` — Primary tool
