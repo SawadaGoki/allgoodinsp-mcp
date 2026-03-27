@@ -194,10 +194,6 @@ Each reference contains structured design decisions from a real website:
 
 Agency, E-Commerce, Consulting, Software/SaaS, Portfolio, Food & Beverage, Hospitality, Education, Health & Wellness, Media/Editorial, Deep-Tech, Architecture, Business/Finance, Recruitment, and more.
 
-### Coverage
-
-Hundreds of sites across 20+ countries, with strong Japan and US coverage.
-
 ## REST API
 
 For programmatic access outside MCP, a REST API is also available.
