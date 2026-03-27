@@ -14,7 +14,7 @@ Add to your MCP configuration:
 {
   "mcpServers": {
     "allgoodinsp": {
-      "url": "https://mcp.allgoodinsp.com/mcp"
+      "url": "https://mcp.allgoodinsp.com"
     }
   }
 }
@@ -213,7 +213,7 @@ Authentication required for higher rate limits. Generate an API key at [allgoodi
 ## Links
 
 - **Gallery:** [allgoodinsp.com](https://allgoodinsp.com)
-- **MCP Endpoint:** `https://mcp.allgoodinsp.com/mcp`
+- **MCP Endpoint:** `https://mcp.allgoodinsp.com`
 - **REST API:** `https://api.allgoodinsp.com/v1`
 - **MCP Docs:** [allgoodinsp.com/docs/mcp](https://allgoodinsp.com/docs/mcp)
 - **API Docs:** [allgoodinsp.com/docs/api](https://allgoodinsp.com/docs/api)
